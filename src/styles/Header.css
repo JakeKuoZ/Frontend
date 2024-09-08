@@ -1,0 +1,33 @@
+.site-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: #2c3e50; /* Background color for header */
+}
+
+.brand-logo {
+    margin-left: 20px;
+}
+
+.brand-name {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.brand-logo img {
+    height: 40px;
+    width: auto;
+}
+
+.brand-name:hover {
+    text-decoration: underline;
+}
+
+.brand-logo img {
+    width: 150px; 
+    height: auto;  
+    border-radius: 5px;  
+
+}

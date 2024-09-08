@@ -1,0 +1,93 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Home Header Styling */
+.home-header {
+    margin-bottom: 40px;
+}
+
+.home-header h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.home-header p {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+/* Buttons */
+.home-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #2980b9;
+}
+
+.home-button.secondary {
+    background-color: #2ecc71;
+}
+
+.home-button.secondary:hover {
+    background-color: #27ae60;
+}
+
+/* Section Styling */
+.home-section {
+    margin-top: 40px;
+}
+
+.home-section h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.home-section p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.home-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+    color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-header h1 {
+        font-size: 28px;
+    }
+
+    .home-button {
+        width: 100%;
+        padding: 12px;
+    }
+}
